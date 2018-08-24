@@ -1,0 +1,85 @@
+1->>Bus Configuration
+
+The Bus configuration interface would allow to enter the fleet of buses available for a particular company. The following are characteristics of buses:
+
+1. Name (i.e. Neoplan Spaceliner)
+
+2. Number of seats.
+
+3. Number of seats per row.
+
+4. Has TV
+
+5. Has Air Conditioning
+
+6. Has Sleeper
+
+7. Has Meal
+
+8. Seat space category (normal, wide, spacey, big recline)
+
+9. Status (Active, Inactive)
+
+
+2-->> Itinerary Configuration
+
+The Itinerary configuration would allow to enter all the possible itineraries available for this company.
+
+1. Identification (Kansas City, Laredo)
+
+2. Start Day (Monday, Tuesday)
+
+3. length (72 hours)
+
+4. Stops (1 through 99)
+
+5. Itinerary Stops
+
+a. Stop Id (1,2,…)
+
+b. Stop City
+
+c. Arrival Time
+
+d. Departure Time
+
+e. Trip Price
+
+3-->>Trip File
+The Trip File has information about each portion of an itinerary.
+
+1. Id
+
+2. From
+
+3. To
+
+4. Departure Date
+
+5. Departure Time
+
+6. Trip Length (Hours &amp; Minutes)
+
+7. Itinerary ID
+
+8. Bus ID
+
+4->> The reservations File contains a reservation for each trip or combination of trips.
+
+1. Record ID
+
+2. Reservation Id
+
+3. Trip ID
+
+4. Client ID
+
+5. Amount
+
+6. Paid Amount
+
+7. Paid Date
+
+8. Receipt Number
+
+9. Change Seat Approve
